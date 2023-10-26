@@ -1,0 +1,35 @@
+##############################
+# folder structure and content
+##############################
+BAM		mapped reads (BAM files); generated automatically
+
+efficiency	CSV spreadsheets of splicing efficiency values for 5' and 3' splice 
+		site of each intron (calculations for introns with sufficient read coverage
+		are given in '_conf.csv' files):
+		- splicing_efficiency in all samples
+		- relative_splicing_efficinecy compared to selected control (e.g., mutant vs WT);
+		generated automatically
+
+FASTQ		unmapped reads (FASTQ files); user-generated, files downloaded manually
+
+FastQC_output	read quality control results (HTML files); generated automatically
+
+genome		genome sequence and annotation:
+		- genome sequence in FASTA format
+		- HISAT2 genome index
+		- genome annotation in GTF format
+		- coordinates of 5' and 3' end bases of known introns (BED format);
+		user-generated, all files except BED files downloaded manually
+
+images		plots (PDF files) of:
+		- comparisons of calculated splicing efficiencies (e.g., mutant vs WT)
+		- coverage of intron 5' and 3' end bases for each sample;
+		generated automatically
+
+introns		CSV spreadsheets of read counts (coverage) for 5' and 3' splice site
+		of each known intron in all samples; generated automatically
+
+transreads	CSV spreadsheets of transread counts (coverage) in all samples for:
+		- all identified splice junctions
+		- known splice junctions;
+		generated automatically
