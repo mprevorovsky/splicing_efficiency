@@ -1,7 +1,7 @@
 # splicing_efficiency
 Scripts for the manuscript 
 
-Workflow for Genome-Wide Determination of Pre-mRNA Splicing Efficiency from Yeast RNA-seq Data.
+**Workflow for Genome-Wide Determination of Pre-mRNA Splicing Efficiency from Yeast RNA-seq Data.**
 
 Převorovský M, Hálová M, Abrhámová K, Libus J, Folk P.
 
